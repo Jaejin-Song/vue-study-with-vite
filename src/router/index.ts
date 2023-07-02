@@ -18,6 +18,11 @@ const router = createRouter({
       path: '/dynamicRoute/:id',
       name: 'dynamicRoute',
       component: () => import('@/components/DynamicRoute.vue')
+    },
+    {
+      path: '/dataBinding',
+      name: 'dataBinding',
+      component: () => import('@/components/DataBinding.vue')
     }
   ]
 })

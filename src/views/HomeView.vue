@@ -10,6 +10,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <RouterLink :to="{ name: 'dynamicRoute', params: { id: 'defaultId' } }"
       >dynamicRoute</RouterLink
     >
+    <router-link to="/dataBinding">data binding</router-link>
   </nav>
 
   <main>
