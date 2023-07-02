@@ -1,9 +1,30 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
+  <nav>
+    <h2>Vue.js Study</h2>
+    <RouterLink to="/">Home</RouterLink>
+    <RouterLink to="/lazyLoad">lazyLoad</RouterLink>
+    <RouterLink :to="{ name: 'dynamicRoute', params: { id: 'defaultId' } }"
+      >dynamicRoute</RouterLink
+    >
+  </nav>
+
   <main>
-    <TheWelcome />
+    <router-view />
   </main>
 </template>
+
+<style lang="scss" scoped>
+nav {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+main {
+  width: 40%;
+  padding: 1rem;
+}
+</style>
