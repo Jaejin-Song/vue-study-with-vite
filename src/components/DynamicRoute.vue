@@ -43,10 +43,5 @@ onBeforeRouteUpdate((to, from) => {
   display: flex;
   flex-direction: column;
   gap: 1rem;
-
-  button {
-    font-size: 16px;
-    font-weight: bold;
-  }
 }
 </style>

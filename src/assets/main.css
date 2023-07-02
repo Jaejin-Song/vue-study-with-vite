@@ -23,4 +23,13 @@ a,
 
 #app {
   display: flex;
+
+  & button {
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px;
+    background-color: var(--color-text);
+    color: var(--color-background);
+  }
 }
