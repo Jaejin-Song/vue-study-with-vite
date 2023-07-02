@@ -23,6 +23,11 @@ const router = createRouter({
       path: '/dataBinding',
       name: 'dataBinding',
       component: () => import('@/components/DataBinding.vue')
+    },
+    {
+      path: '/templateRefs',
+      name: 'templateRefs',
+      component: () => import('@/components/TemplateRefs/Parent.vue')
     }
   ]
 })

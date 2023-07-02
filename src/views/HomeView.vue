@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
       >dynamicRoute</RouterLink
     >
     <router-link to="/dataBinding">data binding</router-link>
+    <router-link to="/templateRefs">templateRefs</router-link>
   </nav>
 
   <main>
