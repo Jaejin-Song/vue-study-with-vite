@@ -28,6 +28,11 @@ const router = createRouter({
       path: '/templateRefs',
       name: 'templateRefs',
       component: () => import('@/components/TemplateRefs/Parent.vue')
+    },
+    {
+      path: '/customDirectives',
+      name: 'customDirectives',
+      component: () => import('@/components/CustomDirectives.vue')
     }
   ]
 })
