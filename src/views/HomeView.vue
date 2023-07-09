@@ -14,6 +14,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <router-link to="/templateRefs">templateRefs</router-link>
     <router-link to="/customDirectives">customDirectives</router-link>
     <router-link to="/plugin">plugin</router-link>
+    <router-link to="/watchObject">watchObject</router-link>
   </nav>
 
   <main>

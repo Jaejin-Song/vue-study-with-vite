@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/plugin',
       name: 'plugin',
       component: () => import('@/components/Plugin.vue')
+    },
+    {
+      path: '/watchObject',
+      name: 'watchObject',
+      component: () => import('@/components/WatchObject.vue')
     }
   ]
 })
