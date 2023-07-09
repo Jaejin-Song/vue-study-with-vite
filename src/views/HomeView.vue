@@ -13,6 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <router-link to="/dataBinding">data binding</router-link>
     <router-link to="/templateRefs">templateRefs</router-link>
     <router-link to="/customDirectives">customDirectives</router-link>
+    <router-link to="/plugin">plugin</router-link>
   </nav>
 
   <main>
